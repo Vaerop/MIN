@@ -10,4 +10,72 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000816;
+    width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--footerAndHeader);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.logo>a {
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--text);
+}
+
+nav>ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+nav>ul>li>a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.kartochki{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text);
+    gap: 20px;
+}
+
+.cards{
+    width: 80%;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* .cards>h1{
+    font-size: 30px;
+} */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 47%;
+    height: 150px;
+    background-color: var(--bg);
+    padding: 15px 25px;
+    border: 0px solid var(--accent);
+    border-radius: 15px;
 }
