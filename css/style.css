@@ -1,0 +1,13 @@
+:root {
+    --footerAndHeader: #000b1c;
+    --bg: #051055;
+    --accent: #006EFF;
+    --text: #D9D9D9;
+}
+
+* {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
