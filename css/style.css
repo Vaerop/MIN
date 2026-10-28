@@ -79,3 +79,24 @@ nav>ul>li>a {
     border: 0px solid var(--accent);
     border-radius: 15px;
 }
+
+
+footer{
+    background-color: var(--footerAndHeader);
+    color: var(--text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.links>ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+}
+
+.links>ul>li>a{
+    text-decoration: none;
+    color: var(--text);
+}
