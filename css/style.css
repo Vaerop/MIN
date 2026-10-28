@@ -11,3 +11,53 @@
     font-weight: weight;
     font-style: normal;
 }
+
+.banner {
+    background-color: #00112a;
+    display: flex;
+    gap: 50px;
+    padding: 48px 40px;
+    justify-content: space-between;
+}
+
+.textBanner {
+    color: var(--text);
+    box-shadow: rgba(0, 110, 255, 0.47);
+}
+
+.bannerCard {
+    /* background-color:  rgba(39, 26, 158, 1) */
+    background-image: radial-gradient(farthest-corner, rgba(39, 26, 158, 0.82), rgba(6, 16, 101, 0.88));
+    padding: 20px;
+    border-radius: ;
+}
+
+.bannerInput {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.buttonAndButton {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    text-align: center;;
+}
+
+button {
+    padding: 10px;
+    height: 50px;
+    width: auto;
+}
+
+input {
+    border: none;
+    background-color: #001940;
+    border-radius: 8px;
+    padding: 9px 150px 9px 24px;
+}
+
+input::placeholder {
+    color: var(--text);
+}
