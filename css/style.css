@@ -80,6 +80,29 @@ nav>ul>li>a {
     border-radius: 15px;
 }
 
+.smirt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smirt>h1{
+    font-size: 30px;
+    color: var(--text);
+}
+
+@keyframes kruchenie {
+  0% {
+    transform: rotate(0deg); /* Начальная позиция */
+  }
+  100% {
+    transform: rotate(360deg); /* Полный оборот */
+  }
+}
+
+.smirtImage {
+    animation: kruchenie 20s linear infinite; /* 5с — длительность, linear — равномерное ускорение */
+}
 
 footer{
     background-color: var(--footerAndHeader);
@@ -100,3 +123,4 @@ footer{
     text-decoration: none;
     color: var(--text);
 }
+
