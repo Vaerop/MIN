@@ -93,7 +93,7 @@ nav>ul>li>a {
     text-align: center;
 }
 
-.grooved-btn{
+.grooved-btn {
     background-color: var(--accent);
     border: none;
     border-radius: 15px;
@@ -125,7 +125,7 @@ input::placeholder {
     color: var(--text);
 }
 
-.kartochki{
+.kartochki {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -133,7 +133,7 @@ input::placeholder {
     gap: 20px;
 }
 
-.cards{
+.cards {
     width: 80%;
     display: flex;
     /* flex-direction: column; */
@@ -146,7 +146,7 @@ input::placeholder {
     font-size: 30px;
 } */
 
-.card{
+.card {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -158,7 +158,7 @@ input::placeholder {
     border-radius: 15px;
 }
 
-.tableBeforeText{
+.tableBeforeText {
     display: flex;
     justify-content: center;
     color: var(--text)
@@ -168,7 +168,7 @@ table {
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
-    border-collapse: separate; 
+    border-collapse: separate;
     border-spacing: 0;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     color: #051055;
@@ -187,22 +187,50 @@ table td {
     border-right: 1px solid black;
 }
 
-table th{
+table th {
     background-color: var(--bg);
     color: var(--text);
     font-weight: 600;
-    text-align: center; 
+    text-align: center;
     padding: 20px;
 }
 
 
 
-.tableImage{
-    display: flex; 
+.tableImage {
+    display: flex;
     justify-self: center;
 }
 
-footer{
+.smirt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smirt>h1 {
+    font-size: 30px;
+    color: var(--text);
+}
+
+@keyframes kruchenie {
+    0% {
+        transform: rotate(0deg);
+        /* Начальная позиция */
+    }
+
+    100% {
+        transform: rotate(360deg);
+        /* Полный оборот */
+    }
+}
+
+.smirtImage {
+    animation: kruchenie 20s linear infinite;
+    /* 5с — длительность, linear — равномерное ускорение */
+}
+
+footer {
     background-color: var(--footerAndHeader);
     color: var(--text);
     display: flex;
@@ -211,13 +239,13 @@ footer{
     padding: 20px;
 }
 
-.links>ul{
+.links>ul {
     list-style-type: none;
     display: flex;
     gap: 30px;
 }
 
-.links>ul>li>a{
+.links>ul>li>a {
     text-decoration: none;
     color: var(--text);
 }
