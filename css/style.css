@@ -21,7 +21,7 @@
     justify-content: space-between;
 }
 
-.bannerAll{
+.bannerAll {
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -49,24 +49,26 @@
     gap: 10px;
 }
 
-.buttonAndButton {
+.buttonAndInput {
     display: flex;
     gap: 15px;
     align-items: center;
-    text-align: center;;
+    text-align: center;
 }
 
-button {
-    padding: 10px;
-    height: 50px;
-    width: auto;
-    background-image: url('');
+.grooved-btn{
+    background-color: var(--accent);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    height: auto;
+    font-size: 20px
 }
 
 input {
     border: none;
     background-color: #001940;
-    border-radius: 8px;
+    border-radius: 15px;
     padding: 9px 150px 9px 24px;
     color: var(--text)
 }
@@ -75,12 +77,12 @@ input::placeholder {
     color: var(--text);
 }
 
-.bannerChekcbox{
+.bannerChekcbox {
     display: flex;
     flex-direction: column;
     gap: 0px;
 }
 
-.bannerP{
+.bannerP {
     color: var(--text);
 }
