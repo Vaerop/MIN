@@ -99,7 +99,8 @@ nav>ul>li>a {
     border-radius: 15px;
     padding: 10px 20px;
     height: auto;
-    font-size: 20px
+    font-size: 20px;
+    color: var(--text)
 }
 
 input {
